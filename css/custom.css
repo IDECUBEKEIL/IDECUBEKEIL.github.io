@@ -1,32 +1,126 @@
-/* 全局字体设置 - 中文宋体，英文和数字Times New Roman */
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全局样式 */
 body {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-    font-size: 16px; /* 可根据需要调整字体大小 */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-/* 标题字体设置 */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-    font-weight: bold;
+/* 标题样式 */
+h1, h2, h3, h4 {
+    color: #222;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }
 
-/* 段落文本设置 */
+h1 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* 段落样式 */
 p {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-    line-height: 1.5; /* 论文常用行高 */
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #444;
 }
 
-/* 列表文本设置 */
-ul, ol, li {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-}
-
-/* 表格文本设置 */
-table {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-}
-
-/* 链接文本设置 */
+/* 链接样式 */
 a {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+    color: #2c3e50;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+}
+
+a:hover {
+    color: #3498db;
+    border-bottom-color: #3498db;
+}
+
+/* 代码块样式 */
+pre {
+    background-color: #2d2d2d;
+    color: #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    font-family: "Consolas", "Monaco", monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* 代码行号和内容样式 */
+pre .line-number {
+    color: #888;
+    display: inline-block;
+    width: 2rem;
+    text-align: right;
+    padding-right: 1rem;
+    user-select: none;
+}
+
+pre .code-content {
+    color: #ccc;
+}
+
+/* 关键字高亮 */
+.keyword {
+    color: #cc7832;
+}
+
+/* 注释高亮 */
+.comment {
+    color: #6a9955;
+}
+
+/* 变量高亮 */
+.variable {
+    color: #9cdcfe;
+}
+
+/* 数值高亮 */
+.number {
+    color: #b5cea8;
+}
+
+/* 强调文本 */
+.emphasis {
+    font-weight: 600;
+    color: #222;
+}
+
+/* 列表样式 */
+ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* 引用样式 */
+blockquote {
+    border-left: 3px solid #ddd;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #666;
 }
