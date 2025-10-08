@@ -12,8 +12,24 @@ body {
     color: #333;
     background-color: #fff;
     padding: 2rem;
-    max-width: 1000px;
+    /* 增大最大宽度或使用相对单位 */
+    max-width: 1200px; /* 增大了这个值 */
+    width: 100%; /* 确保在小屏幕上占满宽度 */
     margin: 0 auto;
+}
+
+/* 添加响应式设计 */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+        max-width: 100%; /* 在移动设备上占满屏幕 */
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        max-width: 1400px; /* 在大屏幕上使用更大的宽度 */
+    }
 }
 
 /* 标题样式 */
@@ -122,5 +138,5 @@ blockquote {
     border-left: 3px solid #ddd;
     padding-left: 1rem;
     margin: 1rem 0;
-    color: #666;
+    color: #8fcff2;
 }
