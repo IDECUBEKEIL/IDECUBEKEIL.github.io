@@ -1,62 +1,37 @@
-/* 基础样式重置 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* 全局样式 */
+/* 全局字体设置 - 中文宋体，英文和数字Times New Roman */
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #fff;
-    padding: 2rem;
-    /* 增大最大宽度或使用相对单位 */
-    max-width: 1200px; /* 增大了这个值 */
-    width: 100%; /* 确保在小屏幕上占满宽度 */
-    margin: 0 auto;
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+    font-size: 16px; /* 可根据需要调整字体大小 */
 }
 
-/* 添加响应式设计 */
-@media (max-width: 768px) {
-    body {
-        padding: 1rem;
-        max-width: 100%; /* 在移动设备上占满屏幕 */
-    }
+/* 标题字体设置 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+    font-weight: bold;
 }
 
-@media (min-width: 1400px) {
-    body {
-        max-width: 1400px; /* 在大屏幕上使用更大的宽度 */
-    }
-}
-
-/* 标题样式 */
-h1, h2, h3, h4 {
-    color: #222;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-h1 {
-    font-size: 1.8rem;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 0.5rem;
-    margin-top: 2rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-/* 段落样式 */
+/* 段落文本设置 */
 p {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    color: #444;
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+    line-height: 1.5; /* 论文常用行高 */
 }
+
+/* 列表文本设置 */
+ul, ol, li {
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+}
+
+/* 表格文本设置 */
+table {
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+}
+
+/* 链接文本设置 */
+a {
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+}
+
 
 /* 链接样式 */
 a {
