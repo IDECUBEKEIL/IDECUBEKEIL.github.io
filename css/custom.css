@@ -1,10 +1,4 @@
 
-/* 全局字体设置 - 中文宋体，英文和数字Times New Roman */
-body {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-    font-size: 16px; /* 可根据需要调整字体大小 */
-}
-
 
 
 /* 段落文本设置 */
