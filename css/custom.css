@@ -5,11 +5,7 @@ body {
     font-size: 16px; /* 可根据需要调整字体大小 */
 }
 
-/* 标题字体设置 */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-    font-weight: bold;
-}
+
 
 /* 段落文本设置 */
 p {
