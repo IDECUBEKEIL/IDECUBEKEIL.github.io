@@ -1,4 +1,14 @@
-/* 仅修改正文元素的字体，不影响标题（h1-h6） */
+/* 仅修改标题样式，正文保持原有设置 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "黑体", "SimHei", "Microsoft YaHei Bold", sans-serif !important;
+    font-weight: 700 !important; /* 强化加粗效果，700 等同于 bold，也可尝试 800 */
+    color: #333; /* 可选：加深标题颜色，增强视觉重量 */
+}
+
+/* 正文元素（段落、列表、表格等）保持宋体/Times New Roman */
+p, ul, ol, li, table, a, blockquote, code {
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+}
 /* 段落 */
 p {
     font-family: "Times New Roman", "宋体", "SimSun", serif !important;
