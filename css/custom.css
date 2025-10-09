@@ -1,39 +1,30 @@
-/* 全局字体设置 - 中文宋体，英文和数字Times New Roman（正文使用） */
-body {
-    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-    font-size: 16px; /* 可根据需要调整字体大小 */
-}
-
-/* 标题字体设置 - 中文黑体，英文和数字Times New Roman */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Times New Roman", "黑体", "SimHei", serif !important; /* 黑体对应的字体名称为"黑体"或"SimHei" */
-    font-weight: bold;
-}
-
-/* 段落文本设置（正文保持宋体） */
+/* 仅修改正文元素的字体，不影响标题（h1-h6） */
+/* 段落 */
 p {
     font-family: "Times New Roman", "宋体", "SimSun", serif !important;
-    line-height: 1.5; /* 论文常用行高 */
 }
 
-/* 列表文本设置（正文保持宋体） */
+/* 列表 */
 ul, ol, li {
     font-family: "Times New Roman", "宋体", "SimSun", serif !important;
 }
 
-/* 表格文本设置（正文保持宋体） */
-table {
+/* 表格 */
+table, th, td {
     font-family: "Times New Roman", "宋体", "SimSun", serif !important;
 }
 
-/* 链接文本设置（正文保持宋体） */
+/* 链接 */
 a {
     font-family: "Times New Roman", "宋体", "SimSun", serif !important;
 }
 
-/* 链接样式 */
-a {
-    color: #2c3e50;
-    text-decoration: none;
-    border-bottom: 1px solid #ddd;
+/* 引用块 */
+blockquote {
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
+}
+
+/* 代码块外的行内代码 */
+code {
+    font-family: "Times New Roman", "宋体", "SimSun", serif !important;
 }
